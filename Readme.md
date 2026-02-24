@@ -23,7 +23,7 @@ Built with a focus on clean UI, smooth functionality, and productivity.
 - Add new tasks  
 - Mark tasks as completed  
 - Delete tasks  
-- Persistent data (if using Local Storage)  
+- Persistent data  
 - Responsive and user-friendly interface  
 
 ---

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App | Satyam</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="app-card">
+    <header>
+      <h1>Stay on track today</h1>
+      <p id="date"></p>
+      <p id="time"></p>
+    </header>
+
+    <!-- Add Task Input -->
+    <div class="input-container">
+      <i class="fa-solid fa-plus icon-plus"></i>
+      <input type="text" id="task" placeholder="Add a task...">
+      <button id="addBtn">Add</button>
+    </div>
+
+    <!-- Task List -->
+    <ul class="list"></ul>
+  </div>
+
+  <!-- Task Template -->
+  <template id="taskTemplate">
+    <li class="task">
+      <div class="task-left">
+        <button class="complete">
+          <i class="fa-regular fa-circle"></i>
+        </button>
+        <span class="text"></span>
+      </div>
+
+      <div class="actions">
+        <button class="edit"><i class="fa-regular fa-pen-to-square"></i></button>
+        <button class="delete"><i class="fa-regular fa-trash-can"></i></button>
+      </div>
+    </li>
+  </template>
+
+  <!-- App Script -->
+  <script src="app.js"></script>
+
+</body>
+
+</html>

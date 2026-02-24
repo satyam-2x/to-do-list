@@ -32,7 +32,7 @@ Built with a focus on clean UI, smooth functionality, and productivity.
 
 - HTML5  
 - CSS3  
-- JavaScript (or React, if used)  
+- JavaScript  
 - Local Storage (for saving tasks)  
 - Git & GitHub  
 

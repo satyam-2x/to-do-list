@@ -7,7 +7,7 @@ Built with a focus on clean UI, smooth functionality, and productivity.
 
 ## 🚀 Live Demo
 
-🔗 [View Live Project](https://your-live-link.com)
+🔗 [View Live Project](https://satyam-2x.github.io/to-do-list/)
 
 ---
 

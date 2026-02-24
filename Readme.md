@@ -49,4 +49,4 @@ The app dynamically updates the UI and stores tasks locally (if implemented).
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/satyam-2x/todo-app.git
+   git clone https://github.com/satyam-2x/to-do-list.git
